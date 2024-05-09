@@ -1,0 +1,70 @@
+/*style.css*/
+* 
+{box-sizing: border-box;
+font-family: 'Kanit', sans-serif;
+background-color: rgb(0, 0, 0);}
+
+.header
+    {padding-left: 34%;}
+
+.video
+    {width: 81%;
+    padding-left: 8%;}
+    
+.main
+    {padding-left: 23%;}
+
+.column
+    {float: left;}
+
+.left
+    {padding-left: 4%;
+    width: 81%;
+    color: rgb(252, 252, 252);}
+
+.right
+    {width: 15%;
+    padding-top: 7%;}
+
+.row::after
+    {content: "";
+    display: table;
+    clear: both;}
+    
+.content_img
+    {padding-left: 30%;
+    padding-bottom: 30%;
+    position:relative;}
+    
+.content_img div
+    {position: absolute;
+    justify-content: flex-end;
+    bottom: 0;
+    right: 0;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-right: 155px;
+    font-family: sans-serif;
+    opacity: 10;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 1s linear; 
+    transition: visibility 0s, opacity 10s linear;}
+    
+.content_img:hover
+    {cursor: pointer;}
+    
+.content_img:hover div
+    {width: 180px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 1;}
+    
+strong
+    {color: #ff0000;
+    font-size:large;}
+
+.footer
+    {color: #ff0000;
+    padding-left: 45%;
+    height: 10%;
+    padding-top: 3px;}
